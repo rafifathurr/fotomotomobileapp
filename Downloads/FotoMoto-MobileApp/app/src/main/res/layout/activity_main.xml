@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:src="@drawable/fotomotologo"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHOTOGRAPHY SERVICES\n  BASED ON MOBILE APP"
+        android:textAlignment="center"
+        android:lineSpacingExtra="5dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/raleway"
+        android:textColor="@color/black"/>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            >
+
+            <ImageButton
+                android:id="@+id/btn_prtfl"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_round_image_24"
+                android:background="@drawable/round_button"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PORTFOLIO"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/raleway"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="70dp"
+            >
+
+            <ImageButton
+                android:id="@+id/btn_srvc"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_round_list_alt_24"
+                android:background="@drawable/round_button"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OUR SERVICE"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/raleway"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            >
+
+            <ImageButton
+                android:id="@+id/btn_cntc"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_baseline_call_24"
+                android:background="@drawable/round_button"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACT US"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/raleway"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="70dp"
+            >
+
+            <ImageButton
+                android:id="@+id/btn_abtus"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_baseline_info_24"
+                android:background="@drawable/round_button"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABOUT US"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/raleway"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

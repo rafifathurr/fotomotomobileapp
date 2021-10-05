@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    tools:context=".activity_service"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:background="#EEEEEE"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OUR SERVICE"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/raleway"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         Our Service all about
+        \n  photography and videography"
+        android:textAlignment="center"
+        android:lineSpacingExtra="5dp"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/raleway"
+        android:textColor="@color/black"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_box"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Pre-Wedding"
+                        android:fontFamily="@font/raleway"
+                        android:layout_gravity="center_horizontal"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
+
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Rp. 500.000,-"
+                        android:fontFamily="sans-serif"
+                        android:layout_gravity="center_horizontal"
+                        android:textAlignment="center"
+                        android:textColor="#B6AA56"
+                        android:textStyle="bold"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_more_prw"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="More Info"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/raleway"
+                        android:background="@drawable/round_button_nonhome"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_box"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Wedding"
+                        android:fontFamily="@font/raleway"
+                        android:layout_gravity="center_horizontal"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"/>
+
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="Rp. 2.000.000,-"
+                        android:fontFamily="sans-serif"
+                        android:layout_gravity="center_horizontal"
+                        android:textAlignment="center"
+                        android:textColor="#B6AA56"
+                        android:textStyle="bold"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_more_w"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="More Info"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/raleway"
+                        android:background="@drawable/round_button_nonhome"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"/>
+
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_box"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Event Photoshoot"
+                    android:fontFamily="@font/raleway"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"/>
+
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Rp. 500.000,-"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:textColor="#B6AA56"
+                    android:textStyle="bold"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_more_ev"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="More Info"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/raleway"
+                    android:background="@drawable/round_button_nonhome"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_box"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/raleway"
+                    android:text="Model Photo Session"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Rp. 200.000,-"
+                    android:textAlignment="center"
+                    android:textColor="#B6AA56"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_more_mdps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/round_button_nonhome"
+                    android:baselineAligned="false"
+                    android:fontFamily="@font/raleway"
+                    android:text="More Info"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

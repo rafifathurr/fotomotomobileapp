@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:background="#EEEEEE"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTACT US"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/raleway"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_baseline_mail_outline_24"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="fotomotophoto@gmail.com"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ig" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="fotomotophotograph"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_baseline_call_30"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:text="(+62)81364243280"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "292178888418",
+    "firebase_url": "https://fotomotoweb-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fotomotoweb",
+    "storage_bucket": "fotomotoweb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292178888418:android:c75488c025bc3c6d4180bb",
+        "android_client_info": {
+          "package_name": "com.example.fotomotoweb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292178888418-ccjuhv3na3lluq5bsjd4qf86p2sscgb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5S4G7OpG2OJF9eI8mf9yvvIdRHu8kmaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292178888418-ccjuhv3na3lluq5bsjd4qf86p2sscgb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
